@@ -7,9 +7,7 @@
 
 name: Build Mod
 
-on:
-  release:
-    types: [created]
+on: [push, pull_request,workflow_dispatch]
 
 jobs:
   build:
