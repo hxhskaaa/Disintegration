@@ -29,8 +29,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew deployNet
          
-    - name: Upload built jar file
+    - name: Upload built mod file
       uses: actions/upload-artifact@v2
       with:
-        name: NewHorizon
+        name: Disintegration
         path: build/libs
